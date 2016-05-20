@@ -25,10 +25,12 @@ cd disney-dining-server
 npm install
 sudo npm install -g sequelize-cli bower grunt-cli
 bower install
+npm install mysql
 ```
 Then copy and edit the config/settings.json.dist and the config/config.json.dist with the pertinent database configurations and application settings.
 
 ```bash
+
 sequelize db:migrate
 npm start
 ```
